@@ -23,6 +23,7 @@ public class ContactController {
 	private static List<Contact> contactList = new ArrayList<Contact>();
 	private static int contactIdCounter = 0;
 	static {
+		contactList.add(new Contact("Devansh", 11001));
 		contactList.add(new Contact("Tom", 11111));
 		contactList.add(new Contact("Jerry", 22222));
 		contactList.add(new Contact("Bipin", 33333));
